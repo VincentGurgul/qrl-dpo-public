@@ -5,7 +5,7 @@ import yfinance as yf
 from config import tickers, start_date, end_date
 from utilities.data_processing import log_difference_dataframe
 
-from curl_cffi import requests
+import requests
 
 
 def main():
